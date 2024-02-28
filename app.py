@@ -1,6 +1,6 @@
-from Games.guess_game import play as play_guess_game
-from Games.currency_roulette_game import play as play_currency_roulette
-from Games.memory_game import play as play_memory_game
+from guess_game import play as play_guess_game
+from currency_roulette_game import play as play_currency_roulette
+from memory_game import play as play_memory_game
 
 games = {
     1: "Memory Game - a sequence of numbers will appear for 1 second and you have to guess it back.",
