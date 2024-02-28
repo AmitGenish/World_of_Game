@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-SCORES_FILE_NAME = "/Users/amitgenish/Desktop/Genish_Bruh/Project's/Coding_Project's/Pyhton/DevOps_Experts/WOG/Scores.txt"
+SCORES_FILE_NAME = "Scores.txt"
 DEFAULT_SCORE = 0
 ERROR_HTML = """<html>
                     <head>
@@ -45,4 +45,4 @@ def score_server():
 
 if __name__ == "__main__":
 
-    app.run(host="0.0.0.0", port=80, debug=True)
+    app.run(host="127.0.0.1", port=80, debug=True)
